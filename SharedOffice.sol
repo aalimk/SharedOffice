@@ -73,7 +73,7 @@ contract SharedOffice {
      * @param renter The renter of the office.
      * @return Flag to denote if call completed successfully.
      */
-    function payRent(address owner, address renter) public returns (bool) {
+    function payRent(address owner, address renter) payable public returns (bool) {
         require(owner != address(0));
         require(renter != address(0));
         // TODO - Add other checks like does the renter even rent from the given owner?
