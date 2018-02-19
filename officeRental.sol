@@ -1,3 +1,7 @@
+/* Authors:
+Aalim Khan
+Tara Amiri
+*/
 pragma solidity ^0.4.19;
 
 //main weekness with this is that a physical address is the key, and so it can easily be misspelled
